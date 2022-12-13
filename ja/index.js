@@ -1,6 +1,6 @@
 export default {
   appTitle: 'Note.SV',
-  subtitle: '暗号資産を守り抜きます',
+  subtitle: 'あなたの大切な記録を守り抜きます',
   password: 'パスワード',
   settings: '設定',
   help: 'ヘルプ',
@@ -13,7 +13,7 @@ export default {
   TouchIDAuth: '指紋IDなどで認証しロック解除',
   inputPassword: 'パスワードを入力してください',
   unlock: 'ロック解除',
-  forgotPassword: 'パスワード忘れ',
+  forgotPassword: 'パスワードを忘れました',
   day: '日',
   hours: '時間',
   minute: '無操作{minute}分後',
@@ -39,7 +39,7 @@ export default {
   status: {
     0: 'ローカル',
     1: 'ブロードキャスト完了',
-    2: 'ブロックチェーン受信',
+    2: 'ブロックチェーン受信完了',
     3: 'オンチェーン'
   },
   'History Record': '履歴記録',
@@ -97,7 +97,7 @@ export default {
   InputPasswordAgain: '新しいパスワード(再度入力)',
   Done: '完了',
   MnemonicLanguage: 'マスター単語の言語',
-  PasswordFailed: 'パスワード一致ではない',
+  PasswordFailed: 'パスワードが一致しません',
   PasswordChanged: 'パスワード変更成功',
   ConfirmBackup: 'バックアップ確認',
   BackupMasterWordsNow: 'すぐバックアップ',
@@ -111,7 +111,7 @@ export default {
   'Skip this step': '次へ',
   InputMissMasterWords: 'マスター単語が間違っています',
   ConfirmRemoveMessage: 'OKボタンをクリックして削除します。あとで新しいアカウント作成するか手元のマスター単語をインポートします',
-  AddressMissing: '入力したアドレスは正しくない',
+  AddressMissing: '入力したアドレスは正しくありません',
   Withdrawing: 'ご指定のアドレスへ引き出し中<br/><span class="text-primary">{address}</span>',
   NoResults: '検索結果なし',
   NoPasswordMessage: 'パスワード記録はありません',
@@ -128,10 +128,10 @@ export default {
   'No Balance': 'Satoshi残高不足、チャージしてください',
 
   IntroMessage: `<p>
-  NoteSVは最高級の暗号技術を利用して、個人の秘密データを保管します。パスワードや銀行情報などの機密情報保管に向け最強のツールです。
+  NoteSVは最高級の暗号技術を利用して、個人の秘密データを保管します。パスワードや銀行情報などの機密情報保管にも適した最強のツールです。
 </p>
 <p>
-  他のパスワード管理ソフトウェアと違い、NoteSVで保管したデータは分散的に世界中数千数万台のビットコインノートに保管されます。本ツールの開発者も含む誰でも変更や削除できない無くなれないです。全てのデータは楕円曲線暗号技術で暗号化されます。
+  他のパスワード管理ソフトウェアと違い、NoteSVで保管したデータは世界中に分散するビットコインノードに保管されます。本ツールの開発者も含む誰も変更や削除できません。全てのデータは楕円曲線暗号技術で暗号化されます。
 </p>
 <p>
   最初に、マスター単語を作成し、<strong>紙とペン</strong>で記録して絶対に無くなさないように保管してください。マスター単語があなたの情報を保管するため唯一の鍵です。
